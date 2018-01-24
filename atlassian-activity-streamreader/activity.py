@@ -3,10 +3,14 @@
 import requests
 import feedparser
 import lxml.html
+import json
 
-URL = 'https://jira.vancis.nl/activity'
-USER = 'patrickb'
-PASS = '<mysecret>'
+with open('config.json','r') as jsonfile:
+    cfg = json.load(jsonfile)
+
+URL = cfg['SERVER_URL'] + '/activity'
+USER = cfg['USER']
+PASS = cfg['PWD']
 
 params = {'os_authType': 'basic', 'streams': 'user IS '+USER, 'maxResults': 200}
 mylist = []
