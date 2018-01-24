@@ -1,0 +1,5 @@
+{
+    "SERVER_URL": "https://myserver.mydomain.tld"
+    "USER": "myusername",
+    "PWD": "mypassword"
+}
