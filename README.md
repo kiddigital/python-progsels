@@ -7,5 +7,5 @@ activity.
 
 Copy config.json.dist to config.json and enter the correct parameters for your environment.
 
-## JSON to CSV
-...
+## YARN JSON to CSV
+Creating tabular structure from YARN job API output
