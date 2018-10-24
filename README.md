@@ -6,3 +6,6 @@ for a give user and creates a simple (per date, deduplicated) overview of regist
 activity.
 
 Copy config.json.dist to config.json and enter the correct parameters for your environment.
+
+## JSON to CSV
+...
